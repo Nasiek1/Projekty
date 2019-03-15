@@ -21,9 +21,6 @@
     <ClCompile Include="ReadFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="StackONP.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="TreeNP.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -51,12 +48,12 @@
     <ClCompile Include="NonTerminalExpression.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ListONP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ReadFile.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="StackONP.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="TreeNP.h">
@@ -84,6 +81,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="NonTerminalExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ListONP.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

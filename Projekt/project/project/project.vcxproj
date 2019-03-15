@@ -124,7 +124,7 @@
     <ClCompile Include="Number.cpp" />
     <ClCompile Include="Operator.cpp" />
     <ClCompile Include="ReadFile.cpp" />
-    <ClCompile Include="StackONP.cpp" />
+    <ClCompile Include="ListONP.cpp" />
     <ClCompile Include="TerminalExpression.cpp" />
     <ClCompile Include="TreeNP.cpp" />
   </ItemGroup>
@@ -137,7 +137,7 @@
     <ClInclude Include="Number.h" />
     <ClInclude Include="Operator.h" />
     <ClInclude Include="ReadFile.h" />
-    <ClInclude Include="StackONP.h" />
+    <ClInclude Include="ListONP.h" />
     <ClInclude Include="TerminalExpression.h" />
     <ClInclude Include="TreeNP.h" />
   </ItemGroup>

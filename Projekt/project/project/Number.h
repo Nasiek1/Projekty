@@ -9,8 +9,9 @@ class Number:public TerminalExpression
 	T value;
 public:
 	Number();
-	Number(const T & val);
+	Number(const int& prior, const T & val);
 	Number(const Number<T>& copy);
-	Number& operator=(Number&& figure); //przypisywac i przenosic wynik z jednej liczby drugiej
+	bool operator==(const Number<T>& figure);
+	Number<T>& operator=(Number<T>&& figure); //przypisywac i przenosic wynik z jednej liczby drugiej
 	~Number();
 };
