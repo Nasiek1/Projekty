@@ -1,0 +1,11 @@
+Kowalski 1020 2000 3600 1900
+Jankowski 2000 200 1000 0
+Czarnecki 0 0 5 0
+Frankowski 4602 600 7000 900
+Malinowski 400 200 5050 500
+Wazowski 200 500000 1200 70
+Ignasiak 8802 65420 120 0
+Polanski 40000 200 5600 6000
+
+
+ 
