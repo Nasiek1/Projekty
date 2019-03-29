@@ -10,8 +10,8 @@ bool Number<T>::operator==(const Number<T>& figure)
 	return value == figure.value;
 }
 template<typename T> 
-Number<T>::Number(const int& prior,const T & val)
-	:TerminalExpression(prior),value(val)
+Number<T>::Number(const T & val)
+	:value(val)
 {
 	
 }

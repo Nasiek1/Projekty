@@ -2,8 +2,8 @@
 Operator::Operator()
 {
 }
-Operator::Operator(const int& prior, const char& sign)
-	:TerminalExpression(prior), character(sign)
+Operator::Operator(const char& sign)
+	:character(sign)
 {
 
 }

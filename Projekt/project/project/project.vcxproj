@@ -116,30 +116,36 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AbstractExpression.cpp" />
+    <ClCompile Include="Addition.cpp" />
+    <ClCompile Include="FileNotFoundException.cpp" />
+    <ClCompile Include="IncorrectDataException.cpp" />
     <ClCompile Include="Interpreter.cpp" />
-    <ClCompile Include="InterpreterNP.cpp" />
-    <ClCompile Include="InterpreterONP.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="NonTerminalExpression.cpp" />
     <ClCompile Include="Number.cpp" />
     <ClCompile Include="Operator.cpp" />
-    <ClCompile Include="ReadFile.cpp" />
-    <ClCompile Include="ListONP.cpp" />
+    <ClCompile Include="InputStream.cpp" />
+    <ClCompile Include="Plus.cpp" />
+    <ClCompile Include="Rule.cpp" />
     <ClCompile Include="TerminalExpression.cpp" />
-    <ClCompile Include="TreeNP.cpp" />
+    <ClCompile Include="TokenRegex.cpp" />
+    <ClCompile Include="TokenStreamSelector.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractExpression.h" />
+    <ClInclude Include="Addition.h" />
+    <ClInclude Include="FileNotFoundException.h" />
+    <ClInclude Include="IncorrectDataException.h" />
     <ClInclude Include="Interpreter.h" />
-    <ClInclude Include="InterpreterNP.h" />
-    <ClInclude Include="InterpreterONP.h" />
     <ClInclude Include="NonTerminalExpression.h" />
     <ClInclude Include="Number.h" />
     <ClInclude Include="Operator.h" />
-    <ClInclude Include="ReadFile.h" />
-    <ClInclude Include="ListONP.h" />
+    <ClInclude Include="InputStream.h" />
+    <ClInclude Include="Plus.h" />
+    <ClInclude Include="Rule.h" />
     <ClInclude Include="TerminalExpression.h" />
-    <ClInclude Include="TreeNP.h" />
+    <ClInclude Include="TokenRegex.h" />
+    <ClInclude Include="TokenStreamSelector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
