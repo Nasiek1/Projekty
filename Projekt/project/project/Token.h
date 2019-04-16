@@ -6,15 +6,15 @@
 #include"AbstractExpression.h"
 #include<regex>	
 #include"TokenRegex.h"
-class TokenStreamSelector
+class Token
 {
 	std::string data;
 	TokenRegex pattern;
 public:
-	TokenStreamSelector(const std::string & information);
+	Token(const std::string & information);
 //	std::unique_ptr<AbstractExpression>createTerminalNumber(const std::string& expression);
 	//std::unique_ptr<AbstractExpression> createTerminalOperator(const std::string &expression);
 	/*std::vector<std::unique_ptr<AbstractExpression>>*/ void splitIntoToken();
-	~TokenStreamSelector();
+	~Token();
 };
 

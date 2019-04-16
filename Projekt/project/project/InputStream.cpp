@@ -14,8 +14,8 @@ bool InputStream::validate(const std::string &data)
 	if (data.size() == 0) {
 		return false;
 	}
-	//std::regex pattern("[^.+*\-\/\^\s\d]");
-	std::regex pattern("[a-zA-Z]|[\"\r!\\@$%&#()~= ?><,{}\]\[|_:;']"); //co z tabulacja? moze byc wykryta
+	std::regex pattern("[^.+*-/0-9 \t\r\n]");
+	//std::regex pattern("[a-zA-Z]|[\"\r!\\@$%&#()~= ?><,{}\]\[|_:;']"); //co z tabulacja? moze byc wykryta
 	
 	return !std::regex_search(data, pattern); //znalazl litery zwraca true wiec musi byc negacja
 }

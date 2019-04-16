@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{BF365A8B-AAE8-4737-90C7-E7846D0F35E1}</ProjectGuid>
-    <RootNamespace>project</RootNamespace>
+    <ProjectGuid>{2D31705A-4D7A-45D1-87E1-8A1764349E72}</ProjectGuid>
+    <RootNamespace>agorytmyIiteratory</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,37 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AbstractExpression.cpp" />
-    <ClCompile Include="Addition.cpp" />
-    <ClCompile Include="FileNotFoundException.cpp" />
-    <ClCompile Include="IncorrectDataException.cpp" />
-    <ClCompile Include="Interpreter.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="NonTerminalExpression.cpp" />
-    <ClCompile Include="Number.cpp" />
-    <ClCompile Include="Operator.cpp" />
-    <ClCompile Include="InputStream.cpp" />
-    <ClCompile Include="Plus.cpp" />
-    <ClCompile Include="Rule.cpp" />
-    <ClCompile Include="TerminalExpression.cpp" />
-    <ClCompile Include="TokenRegex.cpp" />
-    <ClCompile Include="Token.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="AbstractExpression.h" />
-    <ClInclude Include="Addition.h" />
-    <ClInclude Include="FileNotFoundException.h" />
-    <ClInclude Include="IncorrectDataException.h" />
-    <ClInclude Include="Interpreter.h" />
-    <ClInclude Include="NonTerminalExpression.h" />
-    <ClInclude Include="Number.h" />
-    <ClInclude Include="Operator.h" />
-    <ClInclude Include="InputStream.h" />
-    <ClInclude Include="Plus.h" />
-    <ClInclude Include="Rule.h" />
-    <ClInclude Include="TerminalExpression.h" />
-    <ClInclude Include="TokenRegex.h" />
-    <ClInclude Include="Token.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -36,9 +36,6 @@
     <ClCompile Include="NonTerminalExpression.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TokenStreamSelector.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="InputStream.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -58,6 +55,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TokenRegex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Token.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -80,9 +80,6 @@
     <ClInclude Include="NonTerminalExpression.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TokenStreamSelector.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="InputStream.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -102,6 +99,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="TokenRegex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Token.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

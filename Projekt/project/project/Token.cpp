@@ -1,5 +1,5 @@
-#include "TokenStreamSelector.h"
-TokenStreamSelector::TokenStreamSelector(const std::string& information)
+#include "Token.h"
+Token::Token(const std::string& information)
 	:data(information)
 {
 }
@@ -18,7 +18,7 @@ TokenStreamSelector::TokenStreamSelector(const std::string& information)
 //
 //	std::smatch patternResult;
 //	if (std::regex_match(expression, patternResult, pattern.getNumber()))
-//		return std::make_unique<AbstractExpression>(new Number<double>(std::stod(patternResult[0].str().c_str())));
+//		return std::make_unique<AbstractExpression>(new Number<double>(std::stod(patternResult[0].str()));
 //	else
 //		return std::make_unique<AbstractExpression>(new Number<int>(std::stoi(patternResult[0].str().c_str())));
 //}
