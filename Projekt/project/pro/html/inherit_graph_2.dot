@@ -1,0 +1,16 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node7 [label="exception",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="FileNotFoundException",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_file_not_found_exception.html",tooltip=" "];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="IncorrectDataException",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_incorrect_data_exception.html",tooltip=" "];
+  Node7 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="InvalidArgumentException",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_invalid_argument_exception.html",tooltip=" "];
+  Node7 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="SyntaxErrorException",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syntax_error_exception.html",tooltip=" "];
+}

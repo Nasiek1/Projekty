@@ -140,9 +140,6 @@ int main()
 	wateczki.push_back(std::thread(ZliczanieLiterNieoptymalnie, "Potop.txt"));
 	wateczki.push_back(std::thread(ZliczanieLiterNieoptymalnie, "Quo vadis.txt"));
 
-
-
-
 	for (auto &element : wateczki)
 		element.join();
 	time2 = high_resolution_clock::now();
