@@ -1,0 +1,181 @@
+\hypertarget{class_number}{}\section{Number$<$ T $>$ Class Template Reference}
+\label{class_number}\index{Number$<$ T $>$@{Number$<$ T $>$}}
+
+
+{\ttfamily \#include $<$Number.\+h$>$}
+
+
+
+Inheritance diagram for Number$<$ T $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_number__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Number$<$ T $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_number__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_number_a6313577241e4023392abfd7d3696f791}{Number}} ()
+\item 
+\mbox{\hyperlink{class_number_a15c51691afe36b9f0747517b4d322885}{Number}} (const T \&val)
+\item 
+std\+::string \mbox{\hyperlink{class_number_a0c848cb3dac5685ab08cc382c272b00a}{emit}} ()
+\item 
+\mbox{\hyperlink{class_number_a4c7243d311175b965fbe32b22980151f}{Number}} (const std\+::string \&new\+Data, const T \&val)
+\item 
+bool \mbox{\hyperlink{class_number_ad421798cff9c32a4698ccc41bf01643e}{operator==}} (const \mbox{\hyperlink{class_number}{Number}}$<$ T $>$ \&figure)
+\item 
+void \mbox{\hyperlink{class_number_aa43204ac0f0ddcc95f06e32fa0e3fbf1}{check\+A\+ST}} ()
+\item 
+virtual void \mbox{\hyperlink{class_number_af80f6bc48cbe13fb075447a0b8eca5f9}{build\+A\+ST}} (std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&p\+Root, \mbox{\hyperlink{class_parser}{Parser}} \&parser)
+\item 
+T \mbox{\hyperlink{class_number_a331145d945acc493fd69792e05da9179}{get\+Value}} ()
+\item 
+double \mbox{\hyperlink{class_number_a870d87540c5e4fc92b061eb11ba1853f}{calculate}} (std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&p\+Root)
+\item 
+\mbox{\hyperlink{class_number}{Number}}$<$ T $>$ \mbox{\hyperlink{class_number_a998f98b692e38f912bb8623ed849b46f}{operator+}} (const \mbox{\hyperlink{class_number}{Number}}$<$ T $>$ \&number)
+\item 
+\mbox{\hyperlink{class_number}{Number}}$<$ T $>$ \& \mbox{\hyperlink{class_number_ab6cca4f8b5b21539b24d431a920c66e6}{operator=}} (\mbox{\hyperlink{class_number}{Number}}$<$ T $>$ \&\&figure)
+\item 
+\mbox{\hyperlink{class_number_a67c5fc51a64c6ec9438d35c60f17182c}{$\sim$\+Number}} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_number_a6313577241e4023392abfd7d3696f791}\label{class_number_a6313577241e4023392abfd7d3696f791}} 
+\index{Number$<$ T $>$@{Number$<$ T $>$}!Number@{Number}}
+\index{Number@{Number}!Number$<$ T $>$@{Number$<$ T $>$}}
+\subsubsection{\texorpdfstring{Number()}{Number()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{class_number}{Number}}$<$ T $>$\+::\mbox{\hyperlink{class_number}{Number}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_number_a15c51691afe36b9f0747517b4d322885}\label{class_number_a15c51691afe36b9f0747517b4d322885}} 
+\index{Number$<$ T $>$@{Number$<$ T $>$}!Number@{Number}}
+\index{Number@{Number}!Number$<$ T $>$@{Number$<$ T $>$}}
+\subsubsection{\texorpdfstring{Number()}{Number()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{class_number}{Number}}$<$ T $>$\+::\mbox{\hyperlink{class_number}{Number}} (\begin{DoxyParamCaption}\item[{const T \&}]{val }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_number_a4c7243d311175b965fbe32b22980151f}\label{class_number_a4c7243d311175b965fbe32b22980151f}} 
+\index{Number$<$ T $>$@{Number$<$ T $>$}!Number@{Number}}
+\index{Number@{Number}!Number$<$ T $>$@{Number$<$ T $>$}}
+\subsubsection{\texorpdfstring{Number()}{Number()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{class_number}{Number}}$<$ T $>$\+::\mbox{\hyperlink{class_number}{Number}} (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{new\+Data,  }\item[{const T \&}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_number_a67c5fc51a64c6ec9438d35c60f17182c}\label{class_number_a67c5fc51a64c6ec9438d35c60f17182c}} 
+\index{Number$<$ T $>$@{Number$<$ T $>$}!````~Number@{$\sim$Number}}
+\index{````~Number@{$\sim$Number}!Number$<$ T $>$@{Number$<$ T $>$}}
+\subsubsection{\texorpdfstring{$\sim$Number()}{~Number()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{class_number}{Number}}$<$ T $>$\+::$\sim$\mbox{\hyperlink{class_number}{Number}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_number_af80f6bc48cbe13fb075447a0b8eca5f9}\label{class_number_af80f6bc48cbe13fb075447a0b8eca5f9}} 
+\index{Number$<$ T $>$@{Number$<$ T $>$}!buildAST@{buildAST}}
+\index{buildAST@{buildAST}!Number$<$ T $>$@{Number$<$ T $>$}}
+\subsubsection{\texorpdfstring{buildAST()}{buildAST()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void \mbox{\hyperlink{class_number}{Number}}$<$ T $>$\+::build\+A\+ST (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&}]{p\+Root,  }\item[{\mbox{\hyperlink{class_parser}{Parser}} \&}]{parser }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_terminal_expression_a24eb92076324c9c57539b68015d42baa}{Terminal\+Expression}}.
+
+\mbox{\Hypertarget{class_number_a870d87540c5e4fc92b061eb11ba1853f}\label{class_number_a870d87540c5e4fc92b061eb11ba1853f}} 
+\index{Number$<$ T $>$@{Number$<$ T $>$}!calculate@{calculate}}
+\index{calculate@{calculate}!Number$<$ T $>$@{Number$<$ T $>$}}
+\subsubsection{\texorpdfstring{calculate()}{calculate()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+double \mbox{\hyperlink{class_number}{Number}}$<$ T $>$\+::calculate (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&}]{p\+Root }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_abstract_expression_a1c9871ee669668c2eb9f1f1a7d6f5d32}{Abstract\+Expression}}.
+
+\mbox{\Hypertarget{class_number_aa43204ac0f0ddcc95f06e32fa0e3fbf1}\label{class_number_aa43204ac0f0ddcc95f06e32fa0e3fbf1}} 
+\index{Number$<$ T $>$@{Number$<$ T $>$}!checkAST@{checkAST}}
+\index{checkAST@{checkAST}!Number$<$ T $>$@{Number$<$ T $>$}}
+\subsubsection{\texorpdfstring{checkAST()}{checkAST()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void \mbox{\hyperlink{class_number}{Number}}$<$ T $>$\+::check\+A\+ST (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_abstract_expression_a703563fdf65d18ce4b7f2817e2ff4581}{Abstract\+Expression}}.
+
+\mbox{\Hypertarget{class_number_a0c848cb3dac5685ab08cc382c272b00a}\label{class_number_a0c848cb3dac5685ab08cc382c272b00a}} 
+\index{Number$<$ T $>$@{Number$<$ T $>$}!emit@{emit}}
+\index{emit@{emit}!Number$<$ T $>$@{Number$<$ T $>$}}
+\subsubsection{\texorpdfstring{emit()}{emit()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+std\+::string \mbox{\hyperlink{class_number}{Number}}$<$ T $>$\+::emit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_abstract_expression_a9f19c05e663491688cdf4423e002a391}{Abstract\+Expression}}.
+
+\mbox{\Hypertarget{class_number_a331145d945acc493fd69792e05da9179}\label{class_number_a331145d945acc493fd69792e05da9179}} 
+\index{Number$<$ T $>$@{Number$<$ T $>$}!getValue@{getValue}}
+\index{getValue@{getValue}!Number$<$ T $>$@{Number$<$ T $>$}}
+\subsubsection{\texorpdfstring{getValue()}{getValue()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T \mbox{\hyperlink{class_number}{Number}}$<$ T $>$\+::get\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{class_number_a331145d945acc493fd69792e05da9179_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_number_a998f98b692e38f912bb8623ed849b46f}\label{class_number_a998f98b692e38f912bb8623ed849b46f}} 
+\index{Number$<$ T $>$@{Number$<$ T $>$}!operator+@{operator+}}
+\index{operator+@{operator+}!Number$<$ T $>$@{Number$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{class_number}{Number}}$<$ T $>$ \mbox{\hyperlink{class_number}{Number}}$<$ T $>$\+::operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_number}{Number}}$<$ T $>$ \&}]{number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{class_number_a998f98b692e38f912bb8623ed849b46f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_number_ab6cca4f8b5b21539b24d431a920c66e6}\label{class_number_ab6cca4f8b5b21539b24d431a920c66e6}} 
+\index{Number$<$ T $>$@{Number$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!Number$<$ T $>$@{Number$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{class_number}{Number}}$<$ T $>$ \& \mbox{\hyperlink{class_number}{Number}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_number}{Number}}$<$ T $>$ \&\&}]{figure }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_number_ad421798cff9c32a4698ccc41bf01643e}\label{class_number_ad421798cff9c32a4698ccc41bf01643e}} 
+\index{Number$<$ T $>$@{Number$<$ T $>$}!operator==@{operator==}}
+\index{operator==@{operator==}!Number$<$ T $>$@{Number$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+bool \mbox{\hyperlink{class_number}{Number}}$<$ T $>$\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_number}{Number}}$<$ T $>$ \&}]{figure }\end{DoxyParamCaption})}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/olenk/source/repos/pro — kopia/pro/\mbox{\hyperlink{_number_8h}{Number.\+h}}\end{DoxyCompactItemize}

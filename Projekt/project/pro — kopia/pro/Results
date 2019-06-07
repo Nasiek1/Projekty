@@ -1,0 +1,46 @@
+* Expression, that has the fastest calculations: *
+Prefix form of expression: + + 2.0909 4 9
+Infix form of expression: (2.090900+4)+9
+Calculations' result: 15.0909
+Time of calculating: 0.0036126
+
+Prefix form of expression: + 3 + 1 2
+Infix form of expression: 3+(1+2)
+Calculations' result: 6
+Time of calculating: 0.0038593
+
+Prefix form of expression: + + 3 1 2
+Infix form of expression: (3+1)+2
+Calculations' result: 6
+Time of calculating: 0.0042264
+
+Prefix form of expression: + + 2 + 5 4 9
+Infix form of expression: (2+(5+4))+9
+Calculations' result: 20
+Time of calculating: 0.0045776
+
+Prefix form of expression: + + 3 4 + 2 n6.098
+Infix form of expression: (3+4)+(2+-6.098000)
+Calculations' result: 2.902
+Time of calculating: 0.005393
+
+Prefix form of expression: + + + + 2 3 5 4 9
+Infix form of expression: (((2+3)+5)+4)+9
+Calculations' result: 23
+Time of calculating: 0.0060933
+
+Prefix form of expression: + + + 2 3 5 + 4 9
+Infix form of expression: ((2+3)+5)+(4+9)
+Calculations' result: 23
+Time of calculating: 0.0062897
+
+Prefix form of expression: + * / root n4 2 2 3 - 4 9
+Infix form of expression: (((-4*2)/2)*3)+(4*9)
+Calculations' result: 24
+Time of calculating: 0.0078586
+
+Prefix form of expression: + - max 4 6.3 / * 10 2 ^ 2 2 min n2.1 min 6.3 root 3 n8
+Infix form of expression: ((4 max 6.300000)*((10*2)/(2^2)))+(-2.100000 min (6.300000 min (3*-8)))
+Calculations' result: 7.5
+Time of calculating: 0.0151365
+

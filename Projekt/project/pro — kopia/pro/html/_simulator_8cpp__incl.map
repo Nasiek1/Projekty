@@ -1,0 +1,52 @@
+<map id="C:/Users/olenk/source/repos/pro — kopia/pro/Simulator.cpp" name="C:/Users/olenk/source/repos/pro — kopia/pro/Simulator.cpp">
+<area shape="rect" id="node1" title=" " alt="" coords="2140,5,2295,61"/>
+<area shape="rect" id="node2" href="$_simulator_8h.html" title=" " alt="" coords="2173,109,2261,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="624,781,680,808"/>
+<area shape="rect" id="node4" title=" " alt="" coords="2409,781,2463,808"/>
+<area shape="rect" id="node5" href="$_analyzer_l_l_8h.html" title=" " alt="" coords="1765,184,1864,211"/>
+<area shape="rect" id="node20" href="$_input_stream_8h.html" title=" " alt="" coords="1894,707,1997,733"/>
+<area shape="rect" id="node21" title=" " alt="" coords="2487,781,2553,808"/>
+<area shape="rect" id="node46" title=" " alt="" coords="2225,184,2271,211"/>
+<area shape="rect" id="node47" title=" " alt="" coords="2296,184,2355,211"/>
+<area shape="rect" id="node48" title=" " alt="" coords="2379,184,2453,211"/>
+<area shape="rect" id="node49" title=" " alt="" coords="2477,184,2555,211"/>
+<area shape="rect" id="node50" title=" " alt="" coords="2579,184,2619,211"/>
+<area shape="rect" id="node6" href="$_interpreter_8h.html" title=" " alt="" coords="1415,259,1505,285"/>
+<area shape="rect" id="node8" title=" " alt="" coords="991,781,1060,808"/>
+<area shape="rect" id="node7" href="$_abstract_expression_8h.html" title=" " alt="" coords="740,707,887,733"/>
+<area shape="rect" id="node10" href="$_syntax_error_exception_8h.html" title=" " alt="" coords="1700,781,1860,808"/>
+<area shape="rect" id="node12" href="$_parser_8h.html" title=" " alt="" coords="802,333,873,360"/>
+<area shape="rect" id="node9" title=" " alt="" coords="787,781,840,808"/>
+<area shape="rect" id="node11" title=" " alt="" coords="1834,856,1913,883"/>
+<area shape="rect" id="node13" href="$_lexer_8h.html" title=" " alt="" coords="1458,632,1523,659"/>
+<area shape="rect" id="node17" href="$_token_8h.html" title=" " alt="" coords="1221,781,1289,808"/>
+<area shape="rect" id="node18" title=" " alt="" coords="1404,856,1463,883"/>
+<area shape="rect" id="node25" title=" " alt="" coords="1266,408,1321,435"/>
+<area shape="rect" id="node26" href="$_number_8h.html" title=" " alt="" coords="277,483,355,509"/>
+<area shape="rect" id="node29" href="$_operator_8h.html" title=" " alt="" coords="825,557,908,584"/>
+<area shape="rect" id="node30" href="$_addition_8h.html" title=" " alt="" coords="797,408,877,435"/>
+<area shape="rect" id="node33" href="$_subtraction_8h.html" title=" " alt="" coords="675,408,773,435"/>
+<area shape="rect" id="node35" href="$_multiplication_8h.html" title=" " alt="" coords="121,408,231,435"/>
+<area shape="rect" id="node37" href="$_division_8h.html" title=" " alt="" coords="901,408,979,435"/>
+<area shape="rect" id="node40" href="$_exponentiation_8h.html" title=" " alt="" coords="531,408,650,435"/>
+<area shape="rect" id="node42" href="$_root_extraction_8h.html" title=" " alt="" coords="1003,408,1122,435"/>
+<area shape="rect" id="node44" href="$_maximum_8h.html" title=" " alt="" coords="305,408,396,435"/>
+<area shape="rect" id="node45" href="$_minimum_8h.html" title=" " alt="" coords="421,408,507,435"/>
+<area shape="rect" id="node14" title=" " alt="" coords="788,856,860,883"/>
+<area shape="rect" id="node15" title=" " alt="" coords="1519,781,1574,808"/>
+<area shape="rect" id="node16" href="$_token_regex_8h.html" title=" " alt="" coords="1317,707,1422,733"/>
+<area shape="rect" id="node19" href="$_invalid_argument_exception_8h.html" title=" " alt="" coords="1313,781,1495,808"/>
+<area shape="rect" id="node22" title=" " alt="" coords="2319,781,2385,808"/>
+<area shape="rect" id="node23" href="$_incorrect_data_exception_8h.html" title=" " alt="" coords="1884,781,2052,808"/>
+<area shape="rect" id="node24" href="$_file_not_found_exception_8h.html" title=" " alt="" coords="2076,781,2244,808"/>
+<area shape="rect" id="node27" title=" " alt="" coords="452,557,519,584"/>
+<area shape="rect" id="node28" href="$_terminal_expression_8h.html" title=" " alt="" coords="604,632,751,659"/>
+<area shape="rect" id="node31" href="$_non_terminal_expression_8h.html" title=" " alt="" coords="380,483,551,509"/>
+<area shape="rect" id="node32" href="$_plus_8h.html" title=" " alt="" coords="761,483,820,509"/>
+<area shape="rect" id="node34" href="$_minus_8h.html" title=" " alt="" coords="669,483,737,509"/>
+<area shape="rect" id="node36" href="$_multiplication_operator_8h.html" title=" " alt="" coords="94,483,253,509"/>
+<area shape="rect" id="node38" href="$_division_operator_8h.html" title=" " alt="" coords="845,483,971,509"/>
+<area shape="rect" id="node39" href="$_invalid_operand_exception_8h.html" title=" " alt="" coords="995,483,1170,509"/>
+<area shape="rect" id="node41" href="$_power_8h.html" title=" " alt="" coords="575,483,644,509"/>
+<area shape="rect" id="node43" href="$_radical_8h.html" title=" " alt="" coords="1194,483,1270,509"/>
+</map>

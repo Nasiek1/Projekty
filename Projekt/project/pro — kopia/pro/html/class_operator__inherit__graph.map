@@ -1,0 +1,13 @@
+<map id="Operator" name="Operator">
+<area shape="rect" id="node1" title=" " alt="" coords="531,505,647,656"/>
+<area shape="rect" id="node4" href="$class_division_operator.html" title=" " alt="" coords="5,704,149,811"/>
+<area shape="rect" id="node5" href="$class_max_operator.html" title=" " alt="" coords="173,704,299,811"/>
+<area shape="rect" id="node6" href="$class_min_operator.html" title=" " alt="" coords="323,704,445,811"/>
+<area shape="rect" id="node7" href="$class_minus.html" title=" " alt="" coords="469,704,555,811"/>
+<area shape="rect" id="node8" href="$class_multiplication_operator.html" title=" " alt="" coords="579,704,755,811"/>
+<area shape="rect" id="node9" href="$class_plus.html" title=" " alt="" coords="779,704,855,811"/>
+<area shape="rect" id="node10" href="$class_power.html" title=" " alt="" coords="879,704,966,811"/>
+<area shape="rect" id="node11" href="$class_radical.html" title=" " alt="" coords="991,704,1084,811"/>
+<area shape="rect" id="node2" href="$class_terminal_expression.html" title=" " alt="" coords="507,292,671,457"/>
+<area shape="rect" id="node3" href="$class_abstract_expression.html" title=" " alt="" coords="507,5,671,244"/>
+</map>

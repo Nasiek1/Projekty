@@ -1,0 +1,14 @@
+<map id="TerminalExpression" name="TerminalExpression">
+<area shape="rect" id="node1" title=" " alt="" coords="439,292,603,457"/>
+<area shape="rect" id="node3" href="$class_number.html" title=" " alt="" coords="402,505,507,744"/>
+<area shape="rect" id="node4" href="$class_operator.html" title=" " alt="" coords="531,549,647,700"/>
+<area shape="rect" id="node2" href="$class_abstract_expression.html" title=" " alt="" coords="439,5,603,244"/>
+<area shape="rect" id="node5" href="$class_division_operator.html" title=" " alt="" coords="5,792,149,899"/>
+<area shape="rect" id="node6" href="$class_max_operator.html" title=" " alt="" coords="173,792,299,899"/>
+<area shape="rect" id="node7" href="$class_min_operator.html" title=" " alt="" coords="323,792,445,899"/>
+<area shape="rect" id="node8" href="$class_minus.html" title=" " alt="" coords="469,792,555,899"/>
+<area shape="rect" id="node9" href="$class_multiplication_operator.html" title=" " alt="" coords="579,792,755,899"/>
+<area shape="rect" id="node10" href="$class_plus.html" title=" " alt="" coords="779,792,855,899"/>
+<area shape="rect" id="node11" href="$class_power.html" title=" " alt="" coords="879,792,966,899"/>
+<area shape="rect" id="node12" href="$class_radical.html" title=" " alt="" coords="991,792,1084,899"/>
+</map>

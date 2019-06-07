@@ -1,0 +1,130 @@
+\hypertarget{class_non_terminal_expression}{}\section{Non\+Terminal\+Expression Class Reference}
+\label{class_non_terminal_expression}\index{NonTerminalExpression@{NonTerminalExpression}}
+
+
+{\ttfamily \#include $<$Non\+Terminal\+Expression.\+h$>$}
+
+
+
+Inheritance diagram for Non\+Terminal\+Expression\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_non_terminal_expression__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Non\+Terminal\+Expression\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=220pt]{class_non_terminal_expression__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_non_terminal_expression_aa530691d17ddd813ee59f3d78319e9d5}{Non\+Terminal\+Expression}} ()
+\item 
+std\+::string \mbox{\hyperlink{class_non_terminal_expression_affcc5d6e649552b3788661ec9663eb63}{emit}} ()
+\item 
+double \mbox{\hyperlink{class_non_terminal_expression_a41f5031f53384915aef5c19a88671afe}{calculate}} (std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&p\+Root)
+\item 
+void \mbox{\hyperlink{class_non_terminal_expression_a04d61bbfb066afe1c603396e9e69c397}{check\+A\+ST}} ()
+\item 
+virtual void \mbox{\hyperlink{class_non_terminal_expression_aa65153b69523e01d86893f6d7b7fc480}{build\+A\+ST}} (std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&p\+Root, \mbox{\hyperlink{class_parser}{Parser}} \&parser)
+\item 
+virtual void \mbox{\hyperlink{class_non_terminal_expression_a2bdcc38fdd63ba025df8bac517f7b8e8}{build\+A\+ST}} (std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&p\+Root, std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$$>$ \&vector\+Expr)
+\item 
+\mbox{\hyperlink{class_non_terminal_expression_a76840fcc179491c37ee4c7bf76d36557}{$\sim$\+Non\+Terminal\+Expression}} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_non_terminal_expression_aa530691d17ddd813ee59f3d78319e9d5}\label{class_non_terminal_expression_aa530691d17ddd813ee59f3d78319e9d5}} 
+\index{NonTerminalExpression@{NonTerminalExpression}!NonTerminalExpression@{NonTerminalExpression}}
+\index{NonTerminalExpression@{NonTerminalExpression}!NonTerminalExpression@{NonTerminalExpression}}
+\subsubsection{\texorpdfstring{NonTerminalExpression()}{NonTerminalExpression()}}
+{\footnotesize\ttfamily Non\+Terminal\+Expression\+::\+Non\+Terminal\+Expression (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_non_terminal_expression_a76840fcc179491c37ee4c7bf76d36557}\label{class_non_terminal_expression_a76840fcc179491c37ee4c7bf76d36557}} 
+\index{NonTerminalExpression@{NonTerminalExpression}!````~NonTerminalExpression@{$\sim$NonTerminalExpression}}
+\index{````~NonTerminalExpression@{$\sim$NonTerminalExpression}!NonTerminalExpression@{NonTerminalExpression}}
+\subsubsection{\texorpdfstring{$\sim$NonTerminalExpression()}{~NonTerminalExpression()}}
+{\footnotesize\ttfamily Non\+Terminal\+Expression\+::$\sim$\+Non\+Terminal\+Expression (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_non_terminal_expression_aa65153b69523e01d86893f6d7b7fc480}\label{class_non_terminal_expression_aa65153b69523e01d86893f6d7b7fc480}} 
+\index{NonTerminalExpression@{NonTerminalExpression}!buildAST@{buildAST}}
+\index{buildAST@{buildAST}!NonTerminalExpression@{NonTerminalExpression}}
+\subsubsection{\texorpdfstring{buildAST()}{buildAST()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Non\+Terminal\+Expression\+::build\+A\+ST (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&}]{p\+Root,  }\item[{\mbox{\hyperlink{class_parser}{Parser}} \&}]{parser }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_abstract_expression_a22801ba2c981103d20c8af71625a0b39}{Abstract\+Expression}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{class_division_a217df7aed2f8edd71bce9a196243fc81}{Division}}, \mbox{\hyperlink{class_exponentiation_a7c600d4b547358c563edfc76ae8ac8a6}{Exponentiation}}, \mbox{\hyperlink{class_root_extraction_a2c50c1676599c87fe480ae19cd701f1d}{Root\+Extraction}}, \mbox{\hyperlink{class_addition_a5cd97a6e56814cfe24a1211aeaab907f}{Addition}}, \mbox{\hyperlink{class_maximum_a55e8a52bc27e2cf0e1d99ca246ff7189}{Maximum}}, \mbox{\hyperlink{class_minimum_abec83657924b745c348bee1ef300e580}{Minimum}}, \mbox{\hyperlink{class_multiplication_a0bf6680544c5d519ae23597696938a2a}{Multiplication}}, and \mbox{\hyperlink{class_subtraction_a3473b659f19e10c5898c44ef964a1369}{Subtraction}}.
+
+\mbox{\Hypertarget{class_non_terminal_expression_a2bdcc38fdd63ba025df8bac517f7b8e8}\label{class_non_terminal_expression_a2bdcc38fdd63ba025df8bac517f7b8e8}} 
+\index{NonTerminalExpression@{NonTerminalExpression}!buildAST@{buildAST}}
+\index{buildAST@{buildAST}!NonTerminalExpression@{NonTerminalExpression}}
+\subsubsection{\texorpdfstring{buildAST()}{buildAST()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Non\+Terminal\+Expression\+::build\+A\+ST (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&}]{p\+Root,  }\item[{std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$$>$ \&}]{vector\+Expr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{class_non_terminal_expression_a41f5031f53384915aef5c19a88671afe}\label{class_non_terminal_expression_a41f5031f53384915aef5c19a88671afe}} 
+\index{NonTerminalExpression@{NonTerminalExpression}!calculate@{calculate}}
+\index{calculate@{calculate}!NonTerminalExpression@{NonTerminalExpression}}
+\subsubsection{\texorpdfstring{calculate()}{calculate()}}
+{\footnotesize\ttfamily double Non\+Terminal\+Expression\+::calculate (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&}]{p\+Root }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_abstract_expression_a1c9871ee669668c2eb9f1f1a7d6f5d32}{Abstract\+Expression}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{class_root_extraction_ac1c92d2ec68a385f64c828a1a2ff94fa}{Root\+Extraction}}, and \mbox{\hyperlink{class_subtraction_a45931b8ab5514a4517ac2533f50d5235}{Subtraction}}.
+
+\mbox{\Hypertarget{class_non_terminal_expression_a04d61bbfb066afe1c603396e9e69c397}\label{class_non_terminal_expression_a04d61bbfb066afe1c603396e9e69c397}} 
+\index{NonTerminalExpression@{NonTerminalExpression}!checkAST@{checkAST}}
+\index{checkAST@{checkAST}!NonTerminalExpression@{NonTerminalExpression}}
+\subsubsection{\texorpdfstring{checkAST()}{checkAST()}}
+{\footnotesize\ttfamily void Non\+Terminal\+Expression\+::check\+A\+ST (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_abstract_expression_a703563fdf65d18ce4b7f2817e2ff4581}{Abstract\+Expression}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{class_root_extraction_aadc4dbcddb8993df4556b08543ab5d3a}{Root\+Extraction}}, and \mbox{\hyperlink{class_subtraction_a0139d9c18eb7d87fc2f30ca4a6ea114e}{Subtraction}}.
+
+\mbox{\Hypertarget{class_non_terminal_expression_affcc5d6e649552b3788661ec9663eb63}\label{class_non_terminal_expression_affcc5d6e649552b3788661ec9663eb63}} 
+\index{NonTerminalExpression@{NonTerminalExpression}!emit@{emit}}
+\index{emit@{emit}!NonTerminalExpression@{NonTerminalExpression}}
+\subsubsection{\texorpdfstring{emit()}{emit()}}
+{\footnotesize\ttfamily std\+::string Non\+Terminal\+Expression\+::emit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_abstract_expression_a9f19c05e663491688cdf4423e002a391}{Abstract\+Expression}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{class_root_extraction_a56d0e41c6864824111928192345419d0}{Root\+Extraction}}, and \mbox{\hyperlink{class_subtraction_a5371fb13392abe0c2b9fb05ca8bc7875}{Subtraction}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/olenk/source/repos/pro — kopia/pro/\mbox{\hyperlink{_non_terminal_expression_8h}{Non\+Terminal\+Expression.\+h}}\item 
+C\+:/\+Users/olenk/source/repos/pro — kopia/pro/\mbox{\hyperlink{_non_terminal_expression_8cpp}{Non\+Terminal\+Expression.\+cpp}}\end{DoxyCompactItemize}

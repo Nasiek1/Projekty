@@ -1,0 +1,16 @@
+* Expression, that has the fastest calculations: *
+Prefix form of expression: - max * + - - 4 n54 min n2 + 3 2 23 - 1 2 6.3 / * 10 2 ^ 2 min n2.1 min 6.3 root 3 ^ max * min n23.76543 876 0.986 + - 3 67 97 4
+Infix form of expression: (((((4--54)-(-2 min (3+2)))+23)*(1-2)) max 6.300000)-((10*2)/(2^(-2.100000 min (6.300000 min (3 th root ((((-23.765430 min 876)*0.986000) max ((3-67)+97))^4))))))
+Calculations' result: -79.4419
+Time of calculating: 0.0002957
+
+Prefix form of expression: / * + / / * max ^ 7 4 / 13 34 root 6 64 max - * min 4 5.2344 7 9 2 / * ^ n5 76 9.98765 - - 234 8.6544 n54 43 654 - - - 67 43 n5 21
+Infix form of expression: (((((((7^4) max (13/34))*(6 th root 64))/((((4 min 5.234400)*7)-9) max 2))/(((-5^76)*9.987650)/((234-8.654400)--54)))+43)*654)/(((67-43)--5)-21)
+Calculations' result: 3515.25
+Time of calculating: 0.0003006
+
+Prefix form of expression: + * / max n4 2 3 - 4 + max - / 4 2.874 9 3 7 root 3 max * / 65 43 min + + + 54 23 n85 234.0987 1122 * * n43 8.0987 2
+Infix form of expression: (((-4 max 2)/3)*(4-((((4/2.874000)-9) max 3)+7)))+(3 th root (((65/43)*((((54+23)+-85)+234.098700) min 1122)) max ((-43*8.098700)*2)))
+Calculations' result: 2.99167
+Time of calculating: 0.0003251
+

@@ -1,0 +1,125 @@
+\hypertarget{class_interpreter}{}\section{Interpreter Class Reference}
+\label{class_interpreter}\index{Interpreter@{Interpreter}}
+
+
+{\ttfamily \#include $<$Interpreter.\+h$>$}
+
+
+
+Collaboration diagram for Interpreter\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=209pt]{class_interpreter__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_interpreter_a306bccffb1267a2b98da38aca51d15e6}{Interpreter}} (const std\+::string \&data)
+\item 
+void \mbox{\hyperlink{class_interpreter_ad94c189af098f0c93e16d7b88cc56e5e}{interpret}} ()
+\item 
+std\+::string \mbox{\hyperlink{class_interpreter_a7ee7897d2775284b4dcd9ba74cdb4688}{determine\+Infix\+Form}} (std\+::string \&infix\+Form, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&root, bool is\+\_\+root)
+\item 
+void \mbox{\hyperlink{class_interpreter_ab8272fcb4cdd34516054165aabe3a2de}{check\+A\+S\+T\+Correctness}} (std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&root)
+\item 
+std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \& \mbox{\hyperlink{class_interpreter_a507aaf5f8d77bfa29a05f442e7eff6a0}{getp\+Root}} ()
+\item 
+void \mbox{\hyperlink{class_interpreter_a5b56d30db52524f4417e99597c56bb8b}{emit}} (std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&root)
+\item 
+double \mbox{\hyperlink{class_interpreter_aafb0a178fc895f9b2c718da4cd2f0c53}{calculate}} (std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&root)
+\item 
+virtual \mbox{\hyperlink{class_interpreter_a0f96b57f8126e2b5bc63390121e4b5b1}{$\sim$\+Interpreter}} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \mbox{\hyperlink{class_interpreter_af780f2e13f0ee870ce36c7cfe4a0a286}{p\+Root}}
+\item 
+\mbox{\hyperlink{class_parser}{Parser}} \mbox{\hyperlink{class_interpreter_a1c142e9f2068dabdbeb1b93e1d2cd3be}{parser}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_interpreter_a306bccffb1267a2b98da38aca51d15e6}\label{class_interpreter_a306bccffb1267a2b98da38aca51d15e6}} 
+\index{Interpreter@{Interpreter}!Interpreter@{Interpreter}}
+\index{Interpreter@{Interpreter}!Interpreter@{Interpreter}}
+\subsubsection{\texorpdfstring{Interpreter()}{Interpreter()}}
+{\footnotesize\ttfamily Interpreter\+::\+Interpreter (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{data }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_interpreter_a0f96b57f8126e2b5bc63390121e4b5b1}\label{class_interpreter_a0f96b57f8126e2b5bc63390121e4b5b1}} 
+\index{Interpreter@{Interpreter}!````~Interpreter@{$\sim$Interpreter}}
+\index{````~Interpreter@{$\sim$Interpreter}!Interpreter@{Interpreter}}
+\subsubsection{\texorpdfstring{$\sim$Interpreter()}{~Interpreter()}}
+{\footnotesize\ttfamily Interpreter\+::$\sim$\+Interpreter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_interpreter_aafb0a178fc895f9b2c718da4cd2f0c53}\label{class_interpreter_aafb0a178fc895f9b2c718da4cd2f0c53}} 
+\index{Interpreter@{Interpreter}!calculate@{calculate}}
+\index{calculate@{calculate}!Interpreter@{Interpreter}}
+\subsubsection{\texorpdfstring{calculate()}{calculate()}}
+{\footnotesize\ttfamily double Interpreter\+::calculate (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&}]{root }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_interpreter_ab8272fcb4cdd34516054165aabe3a2de}\label{class_interpreter_ab8272fcb4cdd34516054165aabe3a2de}} 
+\index{Interpreter@{Interpreter}!checkASTCorrectness@{checkASTCorrectness}}
+\index{checkASTCorrectness@{checkASTCorrectness}!Interpreter@{Interpreter}}
+\subsubsection{\texorpdfstring{checkASTCorrectness()}{checkASTCorrectness()}}
+{\footnotesize\ttfamily void Interpreter\+::check\+A\+S\+T\+Correctness (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&}]{root }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_interpreter_a7ee7897d2775284b4dcd9ba74cdb4688}\label{class_interpreter_a7ee7897d2775284b4dcd9ba74cdb4688}} 
+\index{Interpreter@{Interpreter}!determineInfixForm@{determineInfixForm}}
+\index{determineInfixForm@{determineInfixForm}!Interpreter@{Interpreter}}
+\subsubsection{\texorpdfstring{determineInfixForm()}{determineInfixForm()}}
+{\footnotesize\ttfamily std\+::string Interpreter\+::determine\+Infix\+Form (\begin{DoxyParamCaption}\item[{std\+::string \&}]{infix\+Form,  }\item[{std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&}]{root,  }\item[{bool}]{is\+\_\+root }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_interpreter_a5b56d30db52524f4417e99597c56bb8b}\label{class_interpreter_a5b56d30db52524f4417e99597c56bb8b}} 
+\index{Interpreter@{Interpreter}!emit@{emit}}
+\index{emit@{emit}!Interpreter@{Interpreter}}
+\subsubsection{\texorpdfstring{emit()}{emit()}}
+{\footnotesize\ttfamily void Interpreter\+::emit (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&}]{root }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_interpreter_a507aaf5f8d77bfa29a05f442e7eff6a0}\label{class_interpreter_a507aaf5f8d77bfa29a05f442e7eff6a0}} 
+\index{Interpreter@{Interpreter}!getpRoot@{getpRoot}}
+\index{getpRoot@{getpRoot}!Interpreter@{Interpreter}}
+\subsubsection{\texorpdfstring{getpRoot()}{getpRoot()}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \& Interpreter\+::getp\+Root (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_interpreter_ad94c189af098f0c93e16d7b88cc56e5e}\label{class_interpreter_ad94c189af098f0c93e16d7b88cc56e5e}} 
+\index{Interpreter@{Interpreter}!interpret@{interpret}}
+\index{interpret@{interpret}!Interpreter@{Interpreter}}
+\subsubsection{\texorpdfstring{interpret()}{interpret()}}
+{\footnotesize\ttfamily void Interpreter\+::interpret (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=302pt]{class_interpreter_ad94c189af098f0c93e16d7b88cc56e5e_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_interpreter_a1c142e9f2068dabdbeb1b93e1d2cd3be}\label{class_interpreter_a1c142e9f2068dabdbeb1b93e1d2cd3be}} 
+\index{Interpreter@{Interpreter}!parser@{parser}}
+\index{parser@{parser}!Interpreter@{Interpreter}}
+\subsubsection{\texorpdfstring{parser}{parser}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_parser}{Parser}} Interpreter\+::parser\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_interpreter_af780f2e13f0ee870ce36c7cfe4a0a286}\label{class_interpreter_af780f2e13f0ee870ce36c7cfe4a0a286}} 
+\index{Interpreter@{Interpreter}!pRoot@{pRoot}}
+\index{pRoot@{pRoot}!Interpreter@{Interpreter}}
+\subsubsection{\texorpdfstring{pRoot}{pRoot}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$\mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}}$>$ Interpreter\+::p\+Root\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/olenk/source/repos/pro — kopia/pro/\mbox{\hyperlink{_interpreter_8h}{Interpreter.\+h}}\item 
+C\+:/\+Users/olenk/source/repos/pro — kopia/pro/\mbox{\hyperlink{_interpreter_8cpp}{Interpreter.\+cpp}}\end{DoxyCompactItemize}

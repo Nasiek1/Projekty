@@ -1,0 +1,114 @@
+\hypertarget{class_terminal_expression}{}\section{Terminal\+Expression Class Reference}
+\label{class_terminal_expression}\index{TerminalExpression@{TerminalExpression}}
+
+
+{\ttfamily \#include $<$Terminal\+Expression.\+h$>$}
+
+
+
+Inheritance diagram for Terminal\+Expression\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_terminal_expression__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Terminal\+Expression\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=203pt]{class_terminal_expression__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_terminal_expression_a5fc534eff14a2bf5e8d516aefdde8814}{Terminal\+Expression}} ()
+\item 
+std\+::string \mbox{\hyperlink{class_terminal_expression_ab18820d8216ab5c2d6111c374aa22423}{emit}} ()
+\item 
+void \mbox{\hyperlink{class_terminal_expression_acc524881ef522ae0cf1231f2cae2b060}{check\+A\+ST}} ()
+\item 
+double \mbox{\hyperlink{class_terminal_expression_ac638c0ed2eeb96a2ac41ca5c0e193061}{calcuate}} (std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&p\+Root)
+\item 
+virtual void \mbox{\hyperlink{class_terminal_expression_a24eb92076324c9c57539b68015d42baa}{build\+A\+ST}} (std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&p\+Root, \mbox{\hyperlink{class_parser}{Parser}} \&parser)
+\item 
+void \mbox{\hyperlink{class_terminal_expression_a5ac1e0df8fe690e3ca5572d7a8f89662}{build\+A\+ST}} (std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&p\+Root, std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$$>$ \&vector\+Expr)
+\item 
+\mbox{\hyperlink{class_terminal_expression_ab4f5c1c7b7c2ffd2e097a1fcb52fec76}{$\sim$\+Terminal\+Expression}} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_terminal_expression_a5fc534eff14a2bf5e8d516aefdde8814}\label{class_terminal_expression_a5fc534eff14a2bf5e8d516aefdde8814}} 
+\index{TerminalExpression@{TerminalExpression}!TerminalExpression@{TerminalExpression}}
+\index{TerminalExpression@{TerminalExpression}!TerminalExpression@{TerminalExpression}}
+\subsubsection{\texorpdfstring{TerminalExpression()}{TerminalExpression()}}
+{\footnotesize\ttfamily Terminal\+Expression\+::\+Terminal\+Expression (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_terminal_expression_ab4f5c1c7b7c2ffd2e097a1fcb52fec76}\label{class_terminal_expression_ab4f5c1c7b7c2ffd2e097a1fcb52fec76}} 
+\index{TerminalExpression@{TerminalExpression}!````~TerminalExpression@{$\sim$TerminalExpression}}
+\index{````~TerminalExpression@{$\sim$TerminalExpression}!TerminalExpression@{TerminalExpression}}
+\subsubsection{\texorpdfstring{$\sim$TerminalExpression()}{~TerminalExpression()}}
+{\footnotesize\ttfamily Terminal\+Expression\+::$\sim$\+Terminal\+Expression (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_terminal_expression_a24eb92076324c9c57539b68015d42baa}\label{class_terminal_expression_a24eb92076324c9c57539b68015d42baa}} 
+\index{TerminalExpression@{TerminalExpression}!buildAST@{buildAST}}
+\index{buildAST@{buildAST}!TerminalExpression@{TerminalExpression}}
+\subsubsection{\texorpdfstring{buildAST()}{buildAST()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Terminal\+Expression\+::build\+A\+ST (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&}]{p\+Root,  }\item[{\mbox{\hyperlink{class_parser}{Parser}} \&}]{parser }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_abstract_expression_a22801ba2c981103d20c8af71625a0b39}{Abstract\+Expression}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{class_number_af80f6bc48cbe13fb075447a0b8eca5f9}{Number$<$ T $>$}}.
+
+\mbox{\Hypertarget{class_terminal_expression_a5ac1e0df8fe690e3ca5572d7a8f89662}\label{class_terminal_expression_a5ac1e0df8fe690e3ca5572d7a8f89662}} 
+\index{TerminalExpression@{TerminalExpression}!buildAST@{buildAST}}
+\index{buildAST@{buildAST}!TerminalExpression@{TerminalExpression}}
+\subsubsection{\texorpdfstring{buildAST()}{buildAST()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Terminal\+Expression\+::build\+A\+ST (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&}]{p\+Root,  }\item[{std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$$>$ \&}]{vector\+Expr }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_terminal_expression_ac638c0ed2eeb96a2ac41ca5c0e193061}\label{class_terminal_expression_ac638c0ed2eeb96a2ac41ca5c0e193061}} 
+\index{TerminalExpression@{TerminalExpression}!calcuate@{calcuate}}
+\index{calcuate@{calcuate}!TerminalExpression@{TerminalExpression}}
+\subsubsection{\texorpdfstring{calcuate()}{calcuate()}}
+{\footnotesize\ttfamily double Terminal\+Expression\+::calcuate (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&}]{p\+Root }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_terminal_expression_acc524881ef522ae0cf1231f2cae2b060}\label{class_terminal_expression_acc524881ef522ae0cf1231f2cae2b060}} 
+\index{TerminalExpression@{TerminalExpression}!checkAST@{checkAST}}
+\index{checkAST@{checkAST}!TerminalExpression@{TerminalExpression}}
+\subsubsection{\texorpdfstring{checkAST()}{checkAST()}}
+{\footnotesize\ttfamily void Terminal\+Expression\+::check\+A\+ST (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_abstract_expression_a703563fdf65d18ce4b7f2817e2ff4581}{Abstract\+Expression}}.
+
+\mbox{\Hypertarget{class_terminal_expression_ab18820d8216ab5c2d6111c374aa22423}\label{class_terminal_expression_ab18820d8216ab5c2d6111c374aa22423}} 
+\index{TerminalExpression@{TerminalExpression}!emit@{emit}}
+\index{emit@{emit}!TerminalExpression@{TerminalExpression}}
+\subsubsection{\texorpdfstring{emit()}{emit()}}
+{\footnotesize\ttfamily std\+::string Terminal\+Expression\+::emit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_abstract_expression_a9f19c05e663491688cdf4423e002a391}{Abstract\+Expression}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/olenk/source/repos/pro — kopia/pro/\mbox{\hyperlink{_terminal_expression_8h}{Terminal\+Expression.\+h}}\item 
+C\+:/\+Users/olenk/source/repos/pro — kopia/pro/\mbox{\hyperlink{_terminal_expression_8cpp}{Terminal\+Expression.\+cpp}}\end{DoxyCompactItemize}

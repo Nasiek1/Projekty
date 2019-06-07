@@ -1,0 +1,183 @@
+\hypertarget{class_abstract_expression}{}\section{Abstract\+Expression Class Reference}
+\label{class_abstract_expression}\index{AbstractExpression@{AbstractExpression}}
+
+
+{\ttfamily \#include $<$Abstract\+Expression.\+h$>$}
+
+
+
+Inheritance diagram for Abstract\+Expression\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_abstract_expression__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Abstract\+Expression\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=203pt]{class_abstract_expression__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_abstract_expression_a1735b3f7800dcc9a9da422ecb3cb6baf}{Abstract\+Expression}} ()
+\item 
+virtual double \mbox{\hyperlink{class_abstract_expression_a1c9871ee669668c2eb9f1f1a7d6f5d32}{calculate}} (std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&p\+Root)
+\item 
+virtual std\+::string \mbox{\hyperlink{class_abstract_expression_a9f19c05e663491688cdf4423e002a391}{emit}} ()
+\item 
+void \mbox{\hyperlink{class_abstract_expression_a7091b8442f4b09ef967660e55cdac0e0}{set\+Left\+Node}} (std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&p\+Left)
+\item 
+void \mbox{\hyperlink{class_abstract_expression_af958794a4a5726a021bd791456b38708}{set\+Right\+Node}} (std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&p\+Right)
+\item 
+\mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} \& \mbox{\hyperlink{class_abstract_expression_a7d80cc623cc5b47037fa95c052424b8f}{operator=}} (\mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} \&\&expr)
+\item 
+std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \& \mbox{\hyperlink{class_abstract_expression_aee9ed310cda3958584c9e34a9e5af512}{get\+Left\+Node}} ()
+\item 
+std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \& \mbox{\hyperlink{class_abstract_expression_a97d5876104b7a70b66d6899a8c607b44}{get\+Right\+Node}} ()
+\item 
+virtual void \mbox{\hyperlink{class_abstract_expression_a703563fdf65d18ce4b7f2817e2ff4581}{check\+A\+ST}} ()
+\item 
+virtual void \mbox{\hyperlink{class_abstract_expression_a22801ba2c981103d20c8af71625a0b39}{build\+A\+ST}} (std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&p\+Root, \mbox{\hyperlink{class_parser}{Parser}} \&parser)
+\item 
+virtual \mbox{\hyperlink{class_abstract_expression_a24a320f9733fb17f444432d01a3d006f}{$\sim$\+Abstract\+Expression}} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \mbox{\hyperlink{class_abstract_expression_aa68e09e96486147d27ed0ce807e97bc3}{left\+Node}}
+\item 
+std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \mbox{\hyperlink{class_abstract_expression_a13e652b679ff14698b789056b4de92e0}{right\+Node}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_abstract_expression_a1735b3f7800dcc9a9da422ecb3cb6baf}\label{class_abstract_expression_a1735b3f7800dcc9a9da422ecb3cb6baf}} 
+\index{AbstractExpression@{AbstractExpression}!AbstractExpression@{AbstractExpression}}
+\index{AbstractExpression@{AbstractExpression}!AbstractExpression@{AbstractExpression}}
+\subsubsection{\texorpdfstring{AbstractExpression()}{AbstractExpression()}}
+{\footnotesize\ttfamily Abstract\+Expression\+::\+Abstract\+Expression (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_abstract_expression_a24a320f9733fb17f444432d01a3d006f}\label{class_abstract_expression_a24a320f9733fb17f444432d01a3d006f}} 
+\index{AbstractExpression@{AbstractExpression}!````~AbstractExpression@{$\sim$AbstractExpression}}
+\index{````~AbstractExpression@{$\sim$AbstractExpression}!AbstractExpression@{AbstractExpression}}
+\subsubsection{\texorpdfstring{$\sim$AbstractExpression()}{~AbstractExpression()}}
+{\footnotesize\ttfamily Abstract\+Expression\+::$\sim$\+Abstract\+Expression (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_abstract_expression_a22801ba2c981103d20c8af71625a0b39}\label{class_abstract_expression_a22801ba2c981103d20c8af71625a0b39}} 
+\index{AbstractExpression@{AbstractExpression}!buildAST@{buildAST}}
+\index{buildAST@{buildAST}!AbstractExpression@{AbstractExpression}}
+\subsubsection{\texorpdfstring{buildAST()}{buildAST()}}
+{\footnotesize\ttfamily void Abstract\+Expression\+::build\+A\+ST (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&}]{p\+Root,  }\item[{\mbox{\hyperlink{class_parser}{Parser}} \&}]{parser }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_number_af80f6bc48cbe13fb075447a0b8eca5f9}{Number$<$ T $>$}}, \mbox{\hyperlink{class_division_a217df7aed2f8edd71bce9a196243fc81}{Division}}, \mbox{\hyperlink{class_exponentiation_a7c600d4b547358c563edfc76ae8ac8a6}{Exponentiation}}, \mbox{\hyperlink{class_root_extraction_a2c50c1676599c87fe480ae19cd701f1d}{Root\+Extraction}}, \mbox{\hyperlink{class_addition_a5cd97a6e56814cfe24a1211aeaab907f}{Addition}}, \mbox{\hyperlink{class_maximum_a55e8a52bc27e2cf0e1d99ca246ff7189}{Maximum}}, \mbox{\hyperlink{class_minimum_abec83657924b745c348bee1ef300e580}{Minimum}}, \mbox{\hyperlink{class_multiplication_a0bf6680544c5d519ae23597696938a2a}{Multiplication}}, \mbox{\hyperlink{class_subtraction_a3473b659f19e10c5898c44ef964a1369}{Subtraction}}, \mbox{\hyperlink{class_non_terminal_expression_aa65153b69523e01d86893f6d7b7fc480}{Non\+Terminal\+Expression}}, and \mbox{\hyperlink{class_terminal_expression_a24eb92076324c9c57539b68015d42baa}{Terminal\+Expression}}.
+
+\mbox{\Hypertarget{class_abstract_expression_a1c9871ee669668c2eb9f1f1a7d6f5d32}\label{class_abstract_expression_a1c9871ee669668c2eb9f1f1a7d6f5d32}} 
+\index{AbstractExpression@{AbstractExpression}!calculate@{calculate}}
+\index{calculate@{calculate}!AbstractExpression@{AbstractExpression}}
+\subsubsection{\texorpdfstring{calculate()}{calculate()}}
+{\footnotesize\ttfamily double Abstract\+Expression\+::calculate (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&}]{p\+Root }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_number_a870d87540c5e4fc92b061eb11ba1853f}{Number$<$ T $>$}}, \mbox{\hyperlink{class_division_a3b5308f2382926667d23c9fa8267480e}{Division}}, \mbox{\hyperlink{class_exponentiation_ab04f25d16cb5a51d71acdb9ac600c745}{Exponentiation}}, \mbox{\hyperlink{class_root_extraction_ac1c92d2ec68a385f64c828a1a2ff94fa}{Root\+Extraction}}, \mbox{\hyperlink{class_addition_a162afcbf8cc7ecc74af2ad2291d0abbe}{Addition}}, \mbox{\hyperlink{class_maximum_ab10a5344f64954905d17d72f4573f805}{Maximum}}, \mbox{\hyperlink{class_minimum_a181a156021f98d15bd1aa6484ff587cc}{Minimum}}, \mbox{\hyperlink{class_multiplication_a2d82ad71d5bb01c3fc3bab1240db9031}{Multiplication}}, \mbox{\hyperlink{class_subtraction_a45931b8ab5514a4517ac2533f50d5235}{Subtraction}}, and \mbox{\hyperlink{class_non_terminal_expression_a41f5031f53384915aef5c19a88671afe}{Non\+Terminal\+Expression}}.
+
+\mbox{\Hypertarget{class_abstract_expression_a703563fdf65d18ce4b7f2817e2ff4581}\label{class_abstract_expression_a703563fdf65d18ce4b7f2817e2ff4581}} 
+\index{AbstractExpression@{AbstractExpression}!checkAST@{checkAST}}
+\index{checkAST@{checkAST}!AbstractExpression@{AbstractExpression}}
+\subsubsection{\texorpdfstring{checkAST()}{checkAST()}}
+{\footnotesize\ttfamily void Abstract\+Expression\+::check\+A\+ST (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_number_aa43204ac0f0ddcc95f06e32fa0e3fbf1}{Number$<$ T $>$}}, \mbox{\hyperlink{class_division_a3ab537039d60a6464fffaa909536f449}{Division}}, \mbox{\hyperlink{class_exponentiation_ae7f0d75fef03d8121d812c591ba6e43f}{Exponentiation}}, \mbox{\hyperlink{class_root_extraction_aadc4dbcddb8993df4556b08543ab5d3a}{Root\+Extraction}}, \mbox{\hyperlink{class_addition_a2179a99b4b5cfe806c3ef67deac9bed4}{Addition}}, \mbox{\hyperlink{class_maximum_a2a37f1b30773d9c63ab57941f5e89cbe}{Maximum}}, \mbox{\hyperlink{class_minimum_ab234ac7bb36a5e92c72d18f22a94c47a}{Minimum}}, \mbox{\hyperlink{class_multiplication_ad6f64d9672c75a25030af352f855309e}{Multiplication}}, \mbox{\hyperlink{class_subtraction_a0139d9c18eb7d87fc2f30ca4a6ea114e}{Subtraction}}, \mbox{\hyperlink{class_non_terminal_expression_a04d61bbfb066afe1c603396e9e69c397}{Non\+Terminal\+Expression}}, and \mbox{\hyperlink{class_terminal_expression_acc524881ef522ae0cf1231f2cae2b060}{Terminal\+Expression}}.
+
+\mbox{\Hypertarget{class_abstract_expression_a9f19c05e663491688cdf4423e002a391}\label{class_abstract_expression_a9f19c05e663491688cdf4423e002a391}} 
+\index{AbstractExpression@{AbstractExpression}!emit@{emit}}
+\index{emit@{emit}!AbstractExpression@{AbstractExpression}}
+\subsubsection{\texorpdfstring{emit()}{emit()}}
+{\footnotesize\ttfamily std\+::string Abstract\+Expression\+::emit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_division_a98e3e9ebf0c3e305ba5d43b245f3815b}{Division}}, \mbox{\hyperlink{class_exponentiation_a3cc7a07711deedbb2bf4125b55b2ef1f}{Exponentiation}}, \mbox{\hyperlink{class_number_a0c848cb3dac5685ab08cc382c272b00a}{Number$<$ T $>$}}, \mbox{\hyperlink{class_root_extraction_a56d0e41c6864824111928192345419d0}{Root\+Extraction}}, \mbox{\hyperlink{class_addition_a16f231380f84d361f2de34ab7d84093a}{Addition}}, \mbox{\hyperlink{class_maximum_ad1f010f3efa2b463a6ab53c8bfaccbb8}{Maximum}}, \mbox{\hyperlink{class_minimum_a8a81bd6a451ad1ad38dd33a85e9d49cc}{Minimum}}, \mbox{\hyperlink{class_multiplication_aa3d4776c71313acdc380b801ecee792b}{Multiplication}}, \mbox{\hyperlink{class_subtraction_a5371fb13392abe0c2b9fb05ca8bc7875}{Subtraction}}, \mbox{\hyperlink{class_non_terminal_expression_affcc5d6e649552b3788661ec9663eb63}{Non\+Terminal\+Expression}}, and \mbox{\hyperlink{class_terminal_expression_ab18820d8216ab5c2d6111c374aa22423}{Terminal\+Expression}}.
+
+\mbox{\Hypertarget{class_abstract_expression_aee9ed310cda3958584c9e34a9e5af512}\label{class_abstract_expression_aee9ed310cda3958584c9e34a9e5af512}} 
+\index{AbstractExpression@{AbstractExpression}!getLeftNode@{getLeftNode}}
+\index{getLeftNode@{getLeftNode}!AbstractExpression@{AbstractExpression}}
+\subsubsection{\texorpdfstring{getLeftNode()}{getLeftNode()}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \& Abstract\+Expression\+::get\+Left\+Node (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_abstract_expression_aee9ed310cda3958584c9e34a9e5af512_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_abstract_expression_a97d5876104b7a70b66d6899a8c607b44}\label{class_abstract_expression_a97d5876104b7a70b66d6899a8c607b44}} 
+\index{AbstractExpression@{AbstractExpression}!getRightNode@{getRightNode}}
+\index{getRightNode@{getRightNode}!AbstractExpression@{AbstractExpression}}
+\subsubsection{\texorpdfstring{getRightNode()}{getRightNode()}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \& Abstract\+Expression\+::get\+Right\+Node (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_abstract_expression_a97d5876104b7a70b66d6899a8c607b44_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_abstract_expression_a7d80cc623cc5b47037fa95c052424b8f}\label{class_abstract_expression_a7d80cc623cc5b47037fa95c052424b8f}} 
+\index{AbstractExpression@{AbstractExpression}!operator=@{operator=}}
+\index{operator=@{operator=}!AbstractExpression@{AbstractExpression}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} \& Abstract\+Expression\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} \&\&}]{expr }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_abstract_expression_a7091b8442f4b09ef967660e55cdac0e0}\label{class_abstract_expression_a7091b8442f4b09ef967660e55cdac0e0}} 
+\index{AbstractExpression@{AbstractExpression}!setLeftNode@{setLeftNode}}
+\index{setLeftNode@{setLeftNode}!AbstractExpression@{AbstractExpression}}
+\subsubsection{\texorpdfstring{setLeftNode()}{setLeftNode()}}
+{\footnotesize\ttfamily void Abstract\+Expression\+::set\+Left\+Node (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&}]{p\+Left }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_abstract_expression_af958794a4a5726a021bd791456b38708}\label{class_abstract_expression_af958794a4a5726a021bd791456b38708}} 
+\index{AbstractExpression@{AbstractExpression}!setRightNode@{setRightNode}}
+\index{setRightNode@{setRightNode}!AbstractExpression@{AbstractExpression}}
+\subsubsection{\texorpdfstring{setRightNode()}{setRightNode()}}
+{\footnotesize\ttfamily void Abstract\+Expression\+::set\+Right\+Node (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}} $>$ \&}]{p\+Right }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_abstract_expression_aa68e09e96486147d27ed0ce807e97bc3}\label{class_abstract_expression_aa68e09e96486147d27ed0ce807e97bc3}} 
+\index{AbstractExpression@{AbstractExpression}!leftNode@{leftNode}}
+\index{leftNode@{leftNode}!AbstractExpression@{AbstractExpression}}
+\subsubsection{\texorpdfstring{leftNode}{leftNode}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$\mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}}$>$ Abstract\+Expression\+::left\+Node\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_abstract_expression_a13e652b679ff14698b789056b4de92e0}\label{class_abstract_expression_a13e652b679ff14698b789056b4de92e0}} 
+\index{AbstractExpression@{AbstractExpression}!rightNode@{rightNode}}
+\index{rightNode@{rightNode}!AbstractExpression@{AbstractExpression}}
+\subsubsection{\texorpdfstring{rightNode}{rightNode}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$\mbox{\hyperlink{class_abstract_expression}{Abstract\+Expression}}$>$ Abstract\+Expression\+::right\+Node\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/olenk/source/repos/pro — kopia/pro/\mbox{\hyperlink{_abstract_expression_8h}{Abstract\+Expression.\+h}}\item 
+C\+:/\+Users/olenk/source/repos/pro — kopia/pro/\mbox{\hyperlink{_abstract_expression_8cpp}{Abstract\+Expression.\+cpp}}\end{DoxyCompactItemize}
